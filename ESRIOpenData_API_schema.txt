@@ -1,0 +1,69 @@
+data
+{
+id:
+type:
++ attributes:
++ relationships:
+meta:
++ links:
+}
+
+attributes:
+name:
+title: [decapitalized name?]
+description:
+url: [web service link]
+landingPage: "https://www.arcgis.com/home/item.html?id=”  + [id]
+datatype:
+extent:
+owner:
+thumbnail:
+tags: []
+createdAt:
+updatedAt:
+harvestedAt:
+quality:
+licenseInfo:
+maxRecordCount: [1000 – always?]
+recordCount: [number of features?]
+currentVersion: [of ArcGIS?]
+commentsEnabled:
++fields
+useStandardizedQueries
++advancedQueryCapabilities
+supportsStandardizedQueries
+supportsAdvancedQueries
+supportedExtensions
+source: [?]
+content:
+displayField:
+geometryType
+objectIdField:
+itemName: [how does this relate to name and title]
+type:
+itemType
+thumbnailUrl: https://www.arcgis.com/sharing/rest/content/items/[id] /info/thumbnail/thumbnail.png
+public:
+views:
+coverage:
+serviceSpatialReference
+metadataURL: [the metadata document – thing that you get to if you click View Metadata on an Item Details page? The html link]  https://www.arcgis.com/sharing/rest/content/items/[id] /info/metadata/metadata.xml?format=default&output=html
+timeInfo:
++metadata: 
+published: null [what would it be if metadata settings are enabled?]
+present: true [what does this mean? Under what conditions would it not be true?]
+url: [the xml link] https://www.arcgis.com/sharing/rest/content/items/[id]/info/metadata/metadata.xml",
+online_resources: [ 
+{url: [for data download] 
+name: [file type]
+itemId: ]}
++structuredLicense {
+type: custom [what are the options here]
+text: [same as licenseInfo above?]}
+hasWarnings:
+hasErrors:
++messages:
+Expiration:
+downloadCache:
+catalogs:
+slug:
